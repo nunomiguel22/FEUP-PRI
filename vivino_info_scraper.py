@@ -110,7 +110,7 @@ bar.finish()
 df = pd.DataFrame(data, columns=INFO_COLUMNS)
 
 print('Checking for and removing duplicates')
-df.drop_duplicates(subset=['vivino_id'])
+df = df.drop_duplicates(subset=['vivino_id', 'year'])
 
 print('Removing rows with incomplete data')
 df = df[df['year'] != 'N.V.']

@@ -7,7 +7,7 @@ import requests
 import pandas as pd
 from progress.bar import Bar
 
-REVIEWS_PER_WINE = 10
+REVIEWS_PER_WINE = 15
 REVIEW_LANGUAGE = 'en'
 INFO_FILE = 'datasets/vivino-info.csv'
 REVIEW_FILE = 'datasets/vivino-reviews.csv'
