@@ -1,4 +1,4 @@
-vivino_id,rating,note,user
+id,rating,note,user
 2484848,4.0,"A very nice Alvarinho 😊  An interesting fruit (and berry) basket of goosberry, green apple, tomato stem, pear, lime and lemon. All in a medium intensity. High in fruitiness and acidety gives a good balance.  Length is good, balance good. Life is good 😊",wine & mind
 2484848,5.0,Had this wine in Lagos at the hotel we stayed in ... really a nice wine. ,Caroline Hulsman
 2484848,4.0,"Great Alvarinho, loved it. Intense yellowish colour, nose of citrus, but the very ripe sweet lemon. Fresh and elegant, but not overly acidic at all, all really balanced, tasty and long.   Type of wine I could have every day. Very gastronomical too, went great with my burrata. Well done !",Martim Amaral Neto
@@ -2192,7 +2192,9 @@ vivino_id,rating,note,user
 5296311,4.5,"Cloudy straw almost like beer. Aromas like a blue moon beer, a smidge of orange/kumquat, chamomile, beeswax, yeast, bruised apple. Palate is balanced with nice roundness and lots of autolytic, beer like flavor. Dry, M+ acid, M- alcohol. This was aged in amphora lined w beeswax. Finishes with more of that chamomile, beer, and a very faint white pepper note. Very good producer. 93",Raymond Slater
 5296311,4.0,Really interesting wine. W white with a good body. Perfect for appetizer with some nice starters ,Joao Ligabue
 1514702,4.0,"(EN) What a nice surprise. The contrast between the 2 grapes is spot on. (PT) Final longo e persistente. Muito bom, considerando o preço.",Jose Santos
-1514702,3.0,"3.3 - Good wine for having with a nice lunch. Ruby red color. Aromas of licorice, cinnamon, balsamic and pepper. In the mouth, balanced, medium intensity and short to medium ending.  We tried this wine with salad and steak sandwich and it was a nice choice... salud!",Pablo Rene Ramirez
+1514702,3.0,"3.3 - Good wine for having with a nice lunch. Ruby red color. Aromas of licorice, cinnamon, balsamic and pepper. In the mouth, balanced, medium intensity and short to medium ending.
+ 
+ We tried this wine with salad and steak sandwich and it was a nice choice... salud!",Pablo Rene Ramirez
 1514702,3.5,"Good, not great.",Von Pade
 1514702,3.0,Simple but pleasant.,Bee
 1514702,3.0,"Fruity, simple, nice",Jml
@@ -3248,7 +3250,8 @@ vivino_id,rating,note,user
 2027650,4.0,"A very rounded proposition,pleasant to drink now!Opened up with a deep garnet color,seemed slightly older then it was!Mature in all ways,the nose is of ripe dark fruit,spices and dark chocolate,a touch of vanilla!The mouth is polite,with good body!Quality tannins and good acidity,the palate is not far from the nose,ripe dark fruit and spicy,raisins and licorice step!Courtesy of Cláudio Pina at the Confraria Marafada,great dinner with friends!   ",Christopher Cabrita
 2027650,4.0,"Ripe red fruit, great smooth balance all over with a long finish",Michel Felipe Nordqvist Cardoso
 2027650,5.0,One of the best Portuguese full bodied wines,Antonio Villas-Boas
-2027650,3.5,"Deepest evil purple - long, drippy legs - forest fruits in the nose - big in the mouth - lush with rough edges but sumptuous - decent finish - I think this will improve with some bottle time. 3 hour decant.",Claw Dee Puss
+2027650,3.5,"Deepest evil purple - long, drippy legs - forest fruits in the nose - big in the mouth - lush with rough edges but sumptuous - decent finish - I think this will improve with some bottle time.
+ 3 hour decant.",Claw Dee Puss
 2027650,5.0,"What a wonderfulll experience, Nice, Fruity. My first experience Of Alentejo Touriga Nacional, doesn't disappoint, but still prefer the Douro experience.",Adolfo Magalhães
 2027650,4.0,"Dark red color. Wild fruits aroma, with wet soil notes. In the mouth is dry with firm but smooth tannins. Medium aftertaste. It is an austere and restrained Touriga Nacional.  ",José Tavares
 2027650,4.5,"Wine dinner with friends @M1ll1umm Rótulos e Eventos, February 11. My contribution to this wonderful evening. Medium ruby color, intense dark fruits aromas, on mouth is smooth, fresh, firm tannins and velvety finish. Rate 4.5",Reynaldo Ajauskas
@@ -7870,7 +7873,8 @@ vivino_id,rating,note,user
 2258813,4.0,"Colheita on the other side, means that the grape used to produce the port are all from the same vintage. It also needs a longer barrel ageing process to deserve the appellation.   Stronger and deeper than LBV, the robe is also thicker, and darker. Caramel, coffee, oak and cherries are the most eminent flavours this port wine offers.",Quentin & Shyamal
 2258813,4.0,"Simple, nuttiness no added sugar with great fruit balance. Delicious finish. Nice Porto with perfect lasting toasted caramel.",Sia
 2258813,4.0,"A nice one! Plums and cherries with oak on the nose, Smooth fruity palate with plums and figs. Pepper opens up ""en route.""  Prolonged warm finish. ",Mart Külvik
-2258813,4.0,"Port Wine Christmas Calendar 4/12/2020. Today’s port is a Colheita aka a single harvest Tawny port. Bottled in 2020, so aged for 16 years on oak barrels. Served at 14°. Lovely light brown color, like watery coffee. Exciting nose with caramel, brown candy sugar, toasted almonds, honey, some baking spices, dried fruits with figs and raisins and a nice medicinal touch with orange peel. On the palate sweet with fine acidity and quite the finish with nice herbal bitternes! Underrated imo. 4.1 😍",Raf De Leu
+2258813,4.0,"Port Wine Christmas Calendar 4/12/2020. Today’s port is a Colheita aka a single harvest Tawny port. Bottled in 2020, so aged for 16 years on oak barrels. Served at 14°. Lovely light brown color, like watery coffee. Exciting nose with caramel, brown candy sugar, toasted almonds, honey, some baking spices, dried fruits with figs and raisins and a nice medicinal touch with orange peel.
+ On the palate sweet with fine acidity and quite the finish with nice herbal bitternes! Underrated imo. 4.1 😍",Raf De Leu
 2258813,4.0,"Nice brown almost Coffey like color, at hint of orange in the nose. The taste Is full fat and very pleasant . It taste of Dried fruits, nuts, caramel.",Christian
 2258813,4.0,"A very nicely ages portwine. Espresso, roasted walnuts, cherry, fig. Very nicely balanced with still some sweetness. ",Jan Eggers
 2258813,4.0,Smooth af. Some berries and soil and a lot of plums. Needs air to fully open up.,chrrex
@@ -10376,7 +10380,12 @@ vivino_id,rating,note,user
 5256468,3.0,"Interesting wine, not for everybody. Full of aromas and flavours, very yeasty character, oxidative.",Michal Šetka
 5256468,5.0,One of the best contemporary wines being produced in Portugal   ,david lacerda
 5256468,5.0,Full of flavor. Perfect with octapus.,Vii A
-5256468,4.0,"Os Canivéis, is a 60 years old small parcel, planted in Carlão - Douro at600m altitude in granitic soils and it shows a rare 15 grape varietal composition which result in a unique wine that excites for whats still to explore in the Douro Region. Citric yellow colour with so and citric aroma. Dense attck withwell balaced acidity. Rich retro in the mid palate. Finishes with good freshness and ",Moço dos Vinhos
+5256468,4.0,"Os Canivéis, is a 60 years old small parcel, planted in Carlão - Douro at
+600m altitude in granitic soils and it shows a rare 15 grape varietal composition which
+ result in a unique wine that excites for whats still to explore in the Douro Region.
+ Citric yellow colour with so and citric aroma. Dense attck with
+well balaced acidity. Rich retro in the mid palate. Finishes with good freshness and
+ ",Moço dos Vinhos
 5256468,5.0,"Fruity, smooth, value for money",Bonnie Fok
 1240769,3.5,"Not a bad tablewine, very balanced, no special notes.. silky tannins, medium to short finish",Kamran Efendioglu
 1240769,3.5,Rich Portuguese red. Deep ruby colour. Aged for 6 months in oak barrels. Red fruit aromas mainly. Bold on the palate with a slight kick of alcohol. It's acceptable though. Medium bodied with a spicy finish which nicely complements the overall positive impression about this wine. ,Benny Scott
@@ -13061,7 +13070,8 @@ vivino_id,rating,note,user
 1231335,5.0,Fruit and good flavor!,Vivino User
 8609518,4.5,"A sublime example of excellent wine-making. Dry, with deep dark cherry, earthiness, some tobacco, some leather, a trace of spice, and a smooth yet quiet layer of oak. A dead-bang winner. With a few years of aging who knows where this would end up. Bravo!",Michael Kardos
 8609518,4.0,"90 points - medium dark purple; nose of fresh strawberries, damp earth, oak; taste of red fruits with notes of mineralogy and healthy acidity. Well balanced and reasonable lingering finish. A vibrant wine that will get better with age.",Gregory Warland
-8609518,4.0,"(4,2) Amazing clarity and purity here. Very elegant rendering of Touriga Nacional, leaning towards a very floral style. Violets. Rosemary, some vanilla. Black fruit. Excellent freshness. Fantastic wine for the price.",Jesper Moonen
+8609518,4.0,"(4,2) Amazing clarity and purity here. Very elegant rendering of Touriga Nacional, leaning towards a very floral style. Violets. Rosemary, some vanilla. Black fruit. Excellent freshness.
+ Fantastic wine for the price.",Jesper Moonen
 8609518,4.0,"Textbook Touriga Nacional giving fresh black and some blue fruit. Just a hint of prunes, black chocolate and lifted violet and grilled spices. Very attractive and classy perfumes. Medium to full body with high tannin and acidity. Sinewy but not unpolished with a warming, medium finish. Needs food. Better from 2023. Rating: 91/100 or 17/20 2023-2030",帅泽堃Zekun Shuai
 8609518,4.0,A very good monocaste. Wood and strawberry. Some of Dão flavours - the right amount of acidity.,Pedro Santos
 8609518,4.0,A big wine with wood structure spice and chocolate. ,Silvia Wine
@@ -13149,7 +13159,8 @@ vivino_id,rating,note,user
 1105367,4.0,Esse private selection é super gostoso!,Luiz Prado
 1105367,3.5,Light oak tropical fruit mango balanced lightly acidic,Hugh Shannon
 1105367,4.0,Very interesting white. Mainly Tropical fruits,Piotr Mleczko
-1105367,4.0,"Has been on a barrel before bottling. More tannins. Main Grape: Semillon. Would be good with Cod, chicken and more tasteful dishes.  Some similarities with Mersault. Needs and gets better with storage.",Tina50ea
+1105367,4.0,"Has been on a barrel before bottling. More tannins. Main Grape: Semillon. Would be good with Cod, chicken and more tasteful dishes.  Some similarities with Mersault.
+ Needs and gets better with storage.",Tina50ea
 1105367,5.0,Best white wine from Alentejo. Still a bit too young; needs a couple of years in cellar.,Tito Casquinha
 2026462,3.0,Nice. Very deep aroma. Complex mainly round body.,Aleksey Lisenkov
 2026462,5.0,"Robust red-wine, soft fruity flavor very creamy, textured and tasteful acidity. I was in a great mood when I tasted it, so it could be some how overrated, but I really loved it!!!",Pedro Ribeiro
@@ -13806,7 +13817,11 @@ vivino_id,rating,note,user
 1291873,4.5,"Velvety goodness, putting up my Portuguese flag tonight... Took me a while ... (Sorry Ronaldo) very appealing wine to me... Duro needs more investigation from me!",Luke Blakey
 1291873,4.5,Incredible wine...after 10 years you can really feel the leather and the oak in the nose. Very balanced with a very nice and long aftertast. Had it with very good friends and enjoyed every sip!!,Andres Monroy
 1291873,4.0,Douro field blend of 70+ years old vines - aged 16 months in french and american oak. Complex chocolaty and velvery plavpurs with some spice tones - nice combo to the truffle salami. @Onno Misset.,Jeroen
-1291873,4.5,"My contribution, selected from the wish list of Dries.  For several years I’m keeping 2 boxes of these beauties in my cellar. So I was very curious to uncork the first bottle. Speaking about vivid fruit aromas and sublime wood integration! A little drop of Balsamic cream, blackberries, black cherries, mocha and a bitter touch of pure chocolate. On the palate you have a layered expression with a recurrence of most aromas from the nose, combined with a perfect balance of tannins and acidity.  🔽🔽🔽comments🔽🔽🔽",Koen Danhieux
+1291873,4.5,"My contribution, selected from the wish list of Dries.
+  For several years I’m keeping 2 boxes of these beauties in my cellar. So I was very curious to uncork the first bottle.
+ Speaking about vivid fruit aromas and sublime wood integration!
+ A little drop of Balsamic cream, blackberries, black cherries, mocha and a bitter touch of pure chocolate.
+ On the palate you have a layered expression with a recurrence of most aromas from the nose, combined with a perfect balance of tannins and acidity.  🔽🔽🔽comments🔽🔽🔽",Koen Danhieux
 1291873,4.5,"[Vivino Leuven 9/11] @[1|17441025|Koen Danhieux] ▶️ @[1|411157|Dries Thirion] I’m starting to like blind tasting, even if I’m not particularly talented. I like it because it confirms why certain wines made me the wine fan I am. Crasto ‘s Reserva is one of them and this mature one knocked it out of the park!! Meaty nose with cinnamon, coffee, perfect oak, blackberry, black currant and smoke followed by a palate with perfect acidity/tannines balance, plenty black fruit and plum. What a finish also!! 4.6",Frederic Knockaert
 1291873,4.5,"This classic Douro Crasto vinhas velhas or reserva is a great Douro red, very consistent and regular year after year.  From a vineyard as age as 70-100 years and a very low production, hand picked grapes and maleolatic fermentation in new french oak barrels for 18 months emerges this complex red.  Great logevity marks this beutifull fullbodied wine made with tipical portuguese grapes of Douro.  Gold/Silver WS 94 Vivino 4,2  Excellent!!!",Sergio Almeida
 1291873,4.5,"Wishlisted #9  A wine from my list wisely selected by @Koen Danhieux from  his 2 cases. The time was about right now to start drinking these top bottles. The best field blend I know!   Bordeaux red in colour, nicely looking with a well defined nose of black fruits, caramel, coffee, complexity. The taste starts with a velvet mouthfeel, a lot of power, a lot black fruits, perfect wood, a tad of mint and very refined. Koen will have a lot pleasure with his other 11bottles. Thanks to share this one.  Rate 4,4⭐️",Dries Thirion
@@ -20240,7 +20255,8 @@ vivino_id,rating,note,user
 3334018,4.0,"Very nice, dark berries in the nose but red berries in the mouth ",Molly
 3334018,4.0,"Raspberry, earthy, strawberries, pepper. A bit funky",Vassili Neplokh
 3334018,4.0,"Light and fruity, and close to a pinot noir. ",Kenneth Austraatt
-1319279,4.5,"fruit & tobacco   Rushed Madeira tasting. Scant notes. Ratings for my own benefit & future reference",Nick Rowan
+1319279,4.5,"fruit & tobacco  
+ Rushed Madeira tasting. Scant notes. Ratings for my own benefit & future reference",Nick Rowan
 1319279,4.5,"4.5* Wonderful Frasqueira Boal. Pronounced intensity of caramel, honey, white raisins, figs, spice (cinnamon), cedar, dried apricot, and tobacco on the nose. It shows complexity with elegant character and depth. Bittersweet long finish. Delicate high acidity leading to freshness. Love this Madeira.(RS: 83g/L, TA:7.76)",Kazumi Uejo
 1319279,4.5,"What a wonderful wine - I had it with a cheese plate but it would have been perfect on its on its also.   Caramel, honey, dried apricots, dates - all combined with a vivid acidity so the wine was nie fat at all. The sweetness just balanced it out.   The nose reminds me of an Amontillado but the Madeira brings slightly sweetness along with him. ",Stefan Heidinger
 1319279,4.5,"Found this at a Lisbon wine bar at 2 am at €20 per glass. Barbeito remains the best Madeira wine by such a long stretch! Big and open nose of orange peel, dried pineapple and mango, brown spices and ginger. Sweet and luscious palate of dried fruits, good freshness and length. This is incredibly deep and fine, totally uplifting and satisfying.",Thor

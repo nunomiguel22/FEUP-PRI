@@ -1,4 +1,4 @@
-vivino_id,winery,year,name,type,rating,price,country,region,image_url
+id,winery,year,name,type,rating,price,country,region,image_url
 2484848,Casa de Cello,2016,Casa de Cello Quinta de San Joanne Branco 2016,white,3.8,13.0,Portugal,Vinho Verde,//images.vivino.com/thumbs/qzBxs3PDTHujq01tAa4gOw_pl_480x640.png
 2658364,Herdade da Ajuda,2011,Herdade da Ajuda Reserva Tinto 2011,red,3.9,11.5,Portugal,Alentejano,//images.vivino.com/labels/fkVj8-BeTFyFE6XdhVvnlQ.jpg
 1722302,São João,2012,São João Lote Especial Tinto 2012,red,3.7,6.65,Portugal,Bairrada,//images.vivino.com/labels/zzwoEciiTjey33-WLFeo9Q.jpg
