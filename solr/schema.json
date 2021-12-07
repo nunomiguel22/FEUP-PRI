@@ -21,17 +21,7 @@
                     {"class":"solr.LowerCaseFilterFactory"}
                 ]
             }
-        }
-    ],
-    "add-field": [
-        {
-            "name": "winery",
-            "type": "wineryTitle",
-            "indexed": true
-        }
-    ],
-
-    "add-field-type": [
+        },
         {
             "name":"nameTitle",
             "class":"solr.TextField",
@@ -53,17 +43,7 @@
                     {"class":"solr.LowerCaseFilterFactory"}
                 ]
             }
-        }
-    ],
-    "add-field": [
-        {
-            "name": "name",
-            "type": "nameTitle",
-            "indexed": true
-        }
-    ],
-
-    "add-field-type": [
+        },
         {
             "name":"regionTitle",
             "class":"solr.TextField",
@@ -85,17 +65,7 @@
                     {"class":"solr.LowerCaseFilterFactory"}
                 ]
             }
-        }
-    ],
-    "add-field": [
-        {
-            "name": "region",
-            "type": "regionTitle",
-            "indexed": true
-        }
-    ],
-
-    "add-field-type": [
+        },
         {
             "name":"countryTitle",
             "class":"solr.TextField",
@@ -119,8 +89,22 @@
             }
         }
     ],
-
     "add-field": [
+        {
+            "name": "winery",
+            "type": "wineryTitle",
+            "indexed": true
+        },
+        {
+            "name": "name",
+            "type": "nameTitle",
+            "indexed": true
+        },
+        {
+            "name": "region",
+            "type": "regionTitle",
+            "indexed": true
+        },
         {
             "name": "country",
             "type": "countryTitle",
