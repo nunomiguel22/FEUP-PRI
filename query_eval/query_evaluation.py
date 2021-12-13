@@ -5,8 +5,8 @@ import json
 import requests
 import pandas as pd
 
-QRELS_FILE = "query_eval/qrels_taste_green_apple.txt"
-QUERY_URL = "http://localhost:8983/solr/wines/select?indent=true&q.op=AND&q=note%3A%22taste%20green%20apple%22~4%20AND%20note%3A%22green%20apple%22%5E5"
+QRELS_FILE = "query_eval/qrels_dish_chicken.txt"
+QUERY_URL = "http://localhost:8983/solr/wines/select?indent=true&q.op=AND&q=(note%3A%22good%22%5E5%20OR%20note%3A%22great%22%5E10)%20AND%20(note%3A%22good%20chicken%22~4%20OR%20note%3A%22great%20chicken%22~4)"
 
 # Read qrels to extract relevant documents
 relevant = list(map(lambda el: el.strip(), open(QRELS_FILE).readlines()))
