@@ -6,7 +6,7 @@ import requests
 import pandas as pd
 
 QRELS_FILE = "query_eval/qrels_dish_chicken.txt"
-QUERY_URL = "http://localhost:8983/solr/wines/select?indent=true&q.op=AND&q=(note%3A%22good%22%5E5%20OR%20note%3A%22great%22%5E10)%20AND%20(note%3A%22good%20chicken%22~4%20OR%20note%3A%22great%20chicken%22~4)"
+QUERY_URL = "http://localhost:8983/solr/wines/select?indent=true&q.op=OR&q=note%3A%22good%20chicken%22~3%20OR%20note%3A%22great%20chicken%22~3%5E5%20OR%20note%3A%22perfect%20chicken%22~4%5E50%20%20OR%20note%3A%22excellent%20chicken%22~4%5E50"
 
 # Read qrels to extract relevant documents
 relevant = list(map(lambda el: el.strip(), open(QRELS_FILE).readlines()))
@@ -84,6 +84,8 @@ def main():
 
     # Extend matching dict to include these new intermediate steps
     for idx, step in enumerate(recall_values):
+        if idx == 0:
+            continue
         if step not in precision_recall_match:
             if recall_values[idx-1] in precision_recall_match:
                 precision_recall_match[step] = precision_recall_match[recall_values[idx-1]]
@@ -92,7 +94,7 @@ def main():
 
     disp = PrecisionRecallDisplay([precision_recall_match.get(r) for r in recall_values], recall_values)
     disp.plot()
-    #plt.ylim(0, 1)
+    plt.ylim(0, 1.1)
     plt.savefig('precision_recall.pdf')
 
 if __name__ == '__main__':
