@@ -1,3 +1,4 @@
+import React from 'react';
 import { Wine } from '../interfaces';
 import styles from '../styles/winecard.module.css';
 import { Link } from "react-router-dom";

@@ -1,3 +1,4 @@
+import React from 'react';
 import Footer from '../components/footer';
 import styles from '../styles/page.module.css';
 
