@@ -21,7 +21,6 @@
          version="2.5"
          metadata-complete="true"
 >
-
 <filter>
   <filter-name>cross-origin</filter-name>
   <filter-class>org.eclipse.jetty.servlets.CrossOriginFilter</filter-class>
@@ -39,18 +38,12 @@
   </init-param>
 </filter>
 
-<filter-mapping>
-  <filter-name>cross-origin</filter-name>
-  <url-pattern>/*</url-pattern>
-</filter-mapping>
-
-
   <!-- Any path (name) registered in solrconfig.xml will be sent to that filter -->
   <filter>
     <filter-name>SolrRequestFilter</filter-name>
     <filter-class>org.apache.solr.servlet.SolrDispatchFilter</filter-class>
     <!--
-    Exclude patterns is a list of directories that would be short circuited by the
+    Exclude patterns is a list of directories that would be short circuited by the 
     SolrDispatchFilter. It includes all Admin UI related static content.
     NOTE: It is NOT a pattern but only matches the start of the HTTP ServletPath.
     -->
@@ -119,4 +112,5 @@
     <servlet-name>RedirectOldZookeeper</servlet-name>
     <url-pattern>/zookeeper</url-pattern>
   </servlet-mapping>
--->
+-->  
+</web-app>
