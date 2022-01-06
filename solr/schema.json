@@ -215,7 +215,8 @@
         {
             "name": "note",
             "type": "noteTitle",
-            "indexed": true
+            "indexed": true,
+            "multiValued": true
         },
         {
             "name": "vivino_id",
