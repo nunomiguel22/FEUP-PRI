@@ -8,16 +8,27 @@ import PageLayout from '../components/pageLayout';
 const Home: React.FC = () => {
 
     const [wineData, setWineData] = useState<Wine[]>([]);
+    const [search, setSearch] = useState<string>('*');
 
     useEffect(() => {
-        getQuery("note:excellent chicken~5^50", 100, "OR").then(response => {
+        getQuery("note:" + search + "~5^50", 100, "OR").then(response => {
             setWineData(response.response.docs);
         });
-    }, []);
+    }, [search]);
+
+
 
     return (
         <PageLayout>
             <div style={cardGallery}>
+                <div style={searchSection}>
+                    <input style={searchBar}
+                        type="text"
+                        placeholder="Search for a specific wine"
+                        value={search}
+                        onChange={(e) => setSearch(e.target.value)}
+                    />
+                </div>
                 {
                     wineData.length === 0 ? (
                         <p> A carregar... </p>
@@ -35,11 +46,22 @@ const Home: React.FC = () => {
 };
 
 const cardGallery: CSS.Properties = {
-    backgroundColor: '#EEEEEEEE',
     paddingBottom: '10px',
     paddingTop: '10px',
-    margin: '50px 50px 50px 50px',
     borderRadius: '13px',
+};
+
+const searchSection: CSS.Properties = {
+    textAlign: 'center',
+};
+
+const searchBar: CSS.Properties = {
+    backgroundColor: '#EEEEEE',
+    boxShadow: '1px 1px #888888',
+    padding: '6px',
+    border: 'none',
+    fontSize: '17px',
+    width: '50%',
 };
 
 export default Home;

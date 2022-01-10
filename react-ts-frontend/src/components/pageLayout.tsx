@@ -1,4 +1,3 @@
-import React from 'react';
 import Footer from '../components/footer';
 import styles from '../styles/page.module.css';
 
@@ -11,6 +10,7 @@ const PageLayout: React.FC<props> = (props: props) => {
 
     return (
         <div>
+            <h1 style={{ textAlign: 'center' }}>Wine Reviews</h1>
             <main className={styles.main}>{props.children}</main>
             <Footer />
         </div>
