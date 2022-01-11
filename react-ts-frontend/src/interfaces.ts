@@ -10,6 +10,6 @@ export interface Wine {
     "country": string,
     "region": string,
     "image_url": string,
-    "note": string,
+    "note": string[],
     "version": number
 }

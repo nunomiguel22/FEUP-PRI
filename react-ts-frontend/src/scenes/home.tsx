@@ -5,13 +5,14 @@ import { Wine } from '../interfaces';
 import { getQuery } from '../api/api';
 import PageLayout from '../components/pageLayout';
 
+
 const Home: React.FC = () => {
 
     const [wineData, setWineData] = useState<Wine[]>([]);
     const [search, setSearch] = useState<string>('*');
 
     useEffect(() => {
-        getQuery("note:" + search + "~5^50", 100, "OR").then(response => {
+        getQuery("note:\"" + search + "\"~5^50", 100, "OR").then(response => {
             setWineData(response.response.docs);
         });
     }, [search]);
@@ -28,6 +29,7 @@ const Home: React.FC = () => {
                         value={search}
                         onChange={(e) => setSearch(e.target.value)}
                     />
+                    <p>results:{wineData.length}</p>
                 </div>
                 {
                     wineData.length === 0 ? (

@@ -14,10 +14,19 @@ const WineDetail: React.FC = () => {
             setWine(response.response.docs[0]);
         });
     }, []);
-
+    console.log(wine?.note);
     return (
         <PageLayout>
-            <p>{wine?.name}</p>
+            <h1>{wine?.name}</h1>
+            {
+
+                wine?.note.map(list =>
+                    list ? (
+                        <p>{list}</p>
+
+                    ) :
+                        null)
+            }
         </PageLayout>
     );
 };
