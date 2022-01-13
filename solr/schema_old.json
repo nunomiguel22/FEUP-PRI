@@ -183,7 +183,7 @@
         },
         {
             "name": "rating",
-            "class": "solr.FloatPointField"
+            "class": "solr.SortableDoubleField"
         },
         {
             "name": "price",
