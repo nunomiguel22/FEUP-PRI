@@ -2,3 +2,10 @@
     margin: 5% 5% 5% 5%;
 }
 
+.header{
+    text-align: center;
+    box-shadow: 0 6px 15px rgb(0 0 0 / 0.3);
+    margin-top: 0px;
+    height: 80px;
+    background-color: #FFFFFF
+}

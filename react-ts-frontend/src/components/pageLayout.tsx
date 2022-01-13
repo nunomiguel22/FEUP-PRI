@@ -10,7 +10,7 @@ const PageLayout: React.FC<props> = (props: props) => {
 
     return (
         <div>
-            <h1 style={{ textAlign: 'center' }}>Wine Reviews</h1>
+            <h1 className={styles.header}>Wine Reviews</h1>
             <main className={styles.main}>{props.children}</main>
             <Footer />
         </div>
