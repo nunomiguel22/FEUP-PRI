@@ -4,30 +4,32 @@ import WineCard from '../components/wineCard';
 import { Wine } from '../interfaces';
 import { getQuery } from '../api/api';
 import PageLayout from '../components/pageLayout';
+import styles from '../styles/home.module.css';
 
 
 const Home: React.FC = () => {
 
     const [wineData, setWineData] = useState<Wine[]>([]);
-    const [search, setSearch] = useState<string>('*');
-    const [rows, setRows] = useState<number>(10);
+    const [search, setSearch] = useState<string>('');
 
     useEffect(() => {
-        getQuery("note:\"" + search + "\"", rows, "OR").then(response => {
+        const q = search != '' ? "note:\"" + search + "\"" : '*';
+        getQuery(q, 100, "OR").then(response => {
             setWineData(response.response.docs);
         });
-    }, [search,rows]);
+    }, [search]);
 
     return (
         <PageLayout>
-            <div style={cardGallery}>
-                <div style={searchSection}>
-                    <input style={searchBar}
+            <div className={styles.cardGallery}>
+                <div className={styles.searchSection}>
+                    <input className={styles.searchBar}
                         type="text"
                         placeholder="Search for a specific wine"
                         value={search}
                         onChange={(e) => setSearch(e.target.value)}
                     />
+<<<<<<< HEAD
                     <input style={rowSelection}
                         type="number"
                         placeholder="Results"
@@ -35,6 +37,9 @@ const Home: React.FC = () => {
                         min="0"
                         onChange={(e) => setRows(e.target.valueAsNumber)}
                     />
+=======
+                    <p>Results:{wineData.length}</p>
+>>>>>>> 54bf39503bc81cb9fcabf9da291882fb8055dc83
                 </div>
             </div>
             {
@@ -52,6 +57,7 @@ const Home: React.FC = () => {
     );
 };
 
+<<<<<<< HEAD
 const cardGallery: CSS.Properties = {
     paddingBottom: '10px',
     paddingTop: '10px',
@@ -72,6 +78,9 @@ const searchBar: CSS.Properties = {
     width: '60%',
     float:'left'
 };
+=======
+
+>>>>>>> 54bf39503bc81cb9fcabf9da291882fb8055dc83
 
 const rowSelection: CSS.Properties = {
     backgroundColor: '#EEEEEE',

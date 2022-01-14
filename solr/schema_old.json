@@ -13,9 +13,6 @@
                         "preserveOriginal": true
                     },
                     {
-                        "class": "solr.EnglishPossessiveFilterFactory"
-                    },
-                    {
                         "class": "solr.LowerCaseFilterFactory"
                     }
                 ]
@@ -28,9 +25,6 @@
                     {
                         "class": "solr.ASCIIFoldingFilterFactory",
                         "preserveOriginal": true
-                    },
-                    {
-                        "class": "solr.EnglishPossessiveFilterFactory"
                     },
                     {
                         "class": "solr.LowerCaseFilterFactory"
@@ -153,11 +147,7 @@
                         "class": "solr.EnglishPossessiveFilterFactory"
                     },
                     {
-                        "class": "solr.StopFilterFactory",
-                        "words": "stopwords.txt"
-                    },
-                    {
-                        "class": "solr.KStemFilterFactory"
+                        "class": "solr.PorterStemFilterFactory"
                     }
                 ]
             },
@@ -174,14 +164,7 @@
                         "class": "solr.LowerCaseFilterFactory"
                     },
                     {
-                        "class": "solr.EnglishPossessiveFilterFactory"
-                    },
-                    {
-                        "class": "solr.StopFilterFactory",
-                        "words": "stopwords.txt"
-                    },
-                    {
-                        "class": "solr.KStemFilterFactory"
+                        "class": "solr.PorterStemFilterFactory"
                     }
                 ]
             }
@@ -200,7 +183,7 @@
         },
         {
             "name": "rating",
-            "class": "solr.FloatPointField"
+            "class": "solr.SortableDoubleField"
         },
         {
             "name": "price",
@@ -256,8 +239,7 @@
         {
             "name": "rating",
             "type": "rating",
-            "indexed": true,
-            "multiValued": false
+            "indexed": false
         },
         {
             "name": "price",

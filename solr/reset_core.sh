@@ -3,6 +3,8 @@
 docker exec pri_solr bin/solr delete -c wines
 docker exec pri_solr bin/solr create_core -c wines
 
+docker cp stopwords.txt pri_solr:/var/solr/data/wines/conf
+
 curl -X POST -H 'Content-type:application/json' \
 --data-binary @schema.json \
 http://localhost:8983/solr/wines/schema
