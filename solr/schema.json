@@ -30,9 +30,6 @@
                         "preserveOriginal": true
                     },
                     {
-                        "class": "solr.EnglishPossessiveFilterFactory"
-                    },
-                    {
                         "class": "solr.LowerCaseFilterFactory"
                     }
                 ]
@@ -175,13 +172,6 @@
                     },
                     {
                         "class": "solr.EnglishPossessiveFilterFactory"
-                    },
-                    {
-                        "class": "solr.StopFilterFactory",
-                        "words": "stopwords.txt"
-                    },
-                    {
-                        "class": "solr.KStemFilterFactory"
                     }
                 ]
             }
