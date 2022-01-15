@@ -30,6 +30,9 @@
                         "preserveOriginal": true
                     },
                     {
+                        "class": "solr.EnglishPossessiveFilterFactory"
+                    },
+                    {
                         "class": "solr.LowerCaseFilterFactory"
                     }
                 ]
@@ -155,6 +158,11 @@
                     },
                     {
                         "class": "solr.KStemFilterFactory"
+                    },
+                    {
+                        "class": "solr.NGramTokenizerFactory",
+                        "minGramSize": 2,
+                        "maxGramSize": 12
                     }
                 ]
             },
@@ -172,6 +180,13 @@
                     },
                     {
                         "class": "solr.EnglishPossessiveFilterFactory"
+                    },
+                    {
+                        "class": "solr.StopFilterFactory",
+                        "words": "stopwords.txt"
+                    },
+                    {
+                        "class": "solr.KStemFilterFactory"
                     }
                 ]
             }

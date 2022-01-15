@@ -19,6 +19,8 @@ const Home: React.FC = () => {
         });
     }, [search]);
 
+
+
     return (
         <PageLayout>
             <div className={styles.cardGallery}>
@@ -29,69 +31,24 @@ const Home: React.FC = () => {
                         value={search}
                         onChange={(e) => setSearch(e.target.value)}
                     />
-<<<<<<< HEAD
-                    <input style={rowSelection}
-                        type="number"
-                        placeholder="Results"
-                        value={rows}
-                        min="0"
-                        onChange={(e) => setRows(e.target.valueAsNumber)}
-                    />
-=======
                     <p>Results:{wineData.length}</p>
->>>>>>> 54bf39503bc81cb9fcabf9da291882fb8055dc83
                 </div>
-            </div>
-            {
-                wineData.length === 0 ? (
-                    <p> A carregar... </p>
-                ) : (
-                    wineData.map(list =>
-                        list ? (
-                            <WineCard key={list.id} wine={list} />
-                        ) : null,
+                {
+                    wineData.length === 0 ? (
+                        <p> A carregar... </p>
+                    ) : (
+                        wineData.map(list =>
+                            list ? (
+                                <WineCard key={list.id} wine={list} />
+                            ) : null,
+                        )
                     )
-                )
-            }
+                }
+            </div>
         </PageLayout>
     );
 };
 
-<<<<<<< HEAD
-const cardGallery: CSS.Properties = {
-    paddingBottom: '10px',
-    paddingTop: '10px',
-    borderRadius: '13px',
-};
-
-const searchSection: CSS.Properties = {
-    textAlign: 'center',
-    margin:'0 auto 0 auto'
-};
-
-const searchBar: CSS.Properties = {
-    backgroundColor: '#EEEEEE',
-    boxShadow: '1px 1px #888888',
-    padding: '6px',
-    border: 'none',
-    fontSize: '17px',
-    width: '60%',
-    float:'left'
-};
-=======
-
->>>>>>> 54bf39503bc81cb9fcabf9da291882fb8055dc83
-
-const rowSelection: CSS.Properties = {
-    backgroundColor: '#EEEEEE',
-    boxShadow: '1px 1px #888888',
-    padding: '6px',
-    border: 'none',
-    fontSize: '17px',
-    width: '15%',
-    float:'left',
-    marginLeft:'10px'
-};
 
 
 export default Home;
