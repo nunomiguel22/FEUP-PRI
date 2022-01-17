@@ -1,0 +1,29 @@
+.imgSection{
+    display:inline-block;
+    width: 30%;
+}
+
+.infoSection{
+    display:inline-block;
+    width: 60%;
+    vertical-align: top;
+}
+
+.reviewSection{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 5%;
+}
+
+.review{
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.reviewTitle{
+    text-align: center;
+    margin-top: 0;
+    color: rgb(75, 75, 75);
+}

@@ -6,7 +6,6 @@ import { getQuery } from '../api/api';
 import PageLayout from '../components/pageLayout';
 import styles from '../styles/home.module.css';
 
-
 const Home: React.FC = () => {
 
     const [wineData, setWineData] = useState<Wine[]>([]);
@@ -14,12 +13,11 @@ const Home: React.FC = () => {
 
     useEffect(() => {
         const q = search != '' ? "note:\"" + search + "\"" : '*';
-        getQuery(q, 100, "OR").then(response => {
+        const q_sort = 'rating desc'
+        getQuery(q, 100, "OR", q_sort).then(response => {
             setWineData(response.response.docs);
         });
     }, [search]);
-
-
 
     return (
         <PageLayout>

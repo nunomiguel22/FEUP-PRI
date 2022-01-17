@@ -16,7 +16,6 @@ const WineCard: React.FC<Props> = ({ wine }: Props) => {
                 <p style={{ fontSize: '17px' }}>{wine.region}</p>
                 <p style={{ fontSize: '24px', color: 'darkgreen', fontWeight: 'bold' }}>{wine.price}€</p>
                 <Rating initialRating={wine.rating} readonly />
-
             </div>
             <div className={styles.cardHalf}>
 

@@ -161,8 +161,9 @@
                     },
                     {
                         "class": "solr.NGramTokenizerFactory",
-                        "minGramSize": 2,
-                        "maxGramSize": 12
+                        "minGramSize": 4,
+                        "maxGramSize": 6,
+                        "preserveOriginal": true
                     }
                 ]
             },
