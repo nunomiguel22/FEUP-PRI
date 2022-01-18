@@ -12,7 +12,7 @@ const Home: React.FC = () => {
     const [search, setSearch] = useState<string>('');
 
     useEffect(() => {
-        const q = search != '' ? "note:\"" + search + "\"" : '*';
+        const q = search != '' ? "note:\"" + search + "\"~20" : '*';
         const q_sort = 'rating desc'
         getQuery(q, 100, "OR", q_sort).then(response => {
             setWineData(response.response.docs);
